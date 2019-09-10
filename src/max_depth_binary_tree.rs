@@ -52,13 +52,13 @@ mod tests {
         let low_left = TreeNode::new(15);
         let low_right = TreeNode::new(7);
         let mut middle_right = TreeNode::new(20);
-        middle_right.left = Option::from(Rc::new(RefCell::new(low_left)));
-        middle_right.right = Option::from(Rc::new(RefCell::new(low_right)));
+        middle_right.left = Some(Rc::new(RefCell::new(low_left)));
+        middle_right.right = Some(Rc::new(RefCell::new(low_right)));
         let middle_left = TreeNode::new(9);
         let mut root = TreeNode::new(3);
-        root.left = Option::from(Rc::new(RefCell::new(middle_left)));
-        root.right = Option::from(Rc::new(RefCell::new(middle_right)));
+        root.left = Some(Rc::new(RefCell::new(middle_left)));
+        root.right = Some(Rc::new(RefCell::new(middle_right)));
 
-        assert_eq!(max_depth(Option::from(Rc::new(RefCell::new(root)))), 3)
+        assert_eq!(max_depth(Some(Rc::new(RefCell::new(root)))), 3)
     }
 }

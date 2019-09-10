@@ -2,9 +2,7 @@
 pub fn reverse_string(s: &mut Vec<char>) {
     let length = s.len();
     for index in 0..s.len() / 2 {
-        let temp = s[index];
-        s[index] = s[length - index - 1];
-        s[length - index - 1] = temp;
+        s.swap(index, length - index - 1);
     }
 }
 

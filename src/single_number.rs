@@ -3,7 +3,7 @@ pub fn single_number(nums: Vec<i32>) -> i32 {
     let mut sol = 0;
 
     for num in nums {
-        sol = sol ^ num;
+        sol ^= num;
     }
 
     sol
