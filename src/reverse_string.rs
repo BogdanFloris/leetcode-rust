@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn reverse_string(s: &mut Vec<char>) {
     let length = s.len();
     for index in 0..s.len() / 2 {
