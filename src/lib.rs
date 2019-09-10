@@ -4,3 +4,4 @@ mod single_number;
 mod fizz_buzz;
 mod reverse_linked_list;
 mod move_zeros;
+mod majority_element;
