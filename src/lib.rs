@@ -5,3 +5,4 @@ mod fizz_buzz;
 mod reverse_linked_list;
 mod move_zeros;
 mod majority_element;
+mod valid_anagram;
