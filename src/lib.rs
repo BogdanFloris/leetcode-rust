@@ -7,3 +7,4 @@ mod move_zeros;
 mod majority_element;
 mod valid_anagram;
 mod contains_duplicate;
+mod roman_to_int;
