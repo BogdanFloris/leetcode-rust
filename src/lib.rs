@@ -9,3 +9,4 @@ mod valid_anagram;
 mod contains_duplicate;
 mod roman_to_int;
 mod max_profit;
+mod sorted_array_to_bst;
