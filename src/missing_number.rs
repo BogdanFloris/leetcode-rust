@@ -14,7 +14,7 @@ pub fn missing_number(nums: Vec<i32>) -> i32 {
         }
     }
 
-    let sum_all = (n * (n + 1) / 2);
+    let sum_all = n * (n + 1) / 2;
 
     if sum_all == sum && contains_zero {
         n + 1
