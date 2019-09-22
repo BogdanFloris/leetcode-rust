@@ -14,3 +14,4 @@ mod excel_sheet_column_number;
 mod sum_of_two_integers;
 mod first_unique_char;
 mod missing_number;
+mod intersection_two_arrays;
