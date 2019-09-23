@@ -15,3 +15,4 @@ mod sum_of_two_integers;
 mod first_unique_char;
 mod missing_number;
 mod intersection_two_arrays;
+mod merge_two_sorted_lists;
