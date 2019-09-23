@@ -17,3 +17,4 @@ mod missing_number;
 mod intersection_two_arrays;
 mod merge_two_sorted_lists;
 mod best_time_to_buy_and_sell_stock;
+mod pascal_triangle;
