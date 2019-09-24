@@ -21,3 +21,4 @@ mod pascal_triangle;
 mod happy_number;
 mod climbing_stairs;
 mod maximum_subarray;
+mod two_sum;
