@@ -20,3 +20,4 @@ mod best_time_to_buy_and_sell_stock;
 mod pascal_triangle;
 mod happy_number;
 mod climbing_stairs;
+mod maximum_subarray;
