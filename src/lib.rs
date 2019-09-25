@@ -26,3 +26,4 @@ mod symmetric_tree;
 mod remove_duplicates;
 mod power_of_three;
 mod plus_one;
+mod house_robber;
