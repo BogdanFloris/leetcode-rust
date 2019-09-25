@@ -22,3 +22,4 @@ mod happy_number;
 mod climbing_stairs;
 mod maximum_subarray;
 mod two_sum;
+mod symmetric_tree;
