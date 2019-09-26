@@ -29,3 +29,4 @@ mod plus_one;
 mod house_robber;
 mod min_stack;
 mod trailing_zeros;
+mod valid_parentheses;
