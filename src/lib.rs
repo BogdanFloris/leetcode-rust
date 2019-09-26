@@ -30,3 +30,4 @@ mod house_robber;
 mod min_stack;
 mod trailing_zeros;
 mod valid_parentheses;
+mod palindrome_linked_list;
