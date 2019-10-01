@@ -34,3 +34,4 @@ mod palindrome_linked_list;
 mod merge_sorted_array;
 mod permutations;
 mod four_sum;
+mod find_duplicate;
