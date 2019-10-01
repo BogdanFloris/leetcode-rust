@@ -22,7 +22,7 @@ impl TreeNode {
 
 #[allow(dead_code)]
 pub fn sorted_array_to_bst(nums: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
-    if nums.len() == 0 {
+    if nums.is_empty() {
         return None;
     }
 

@@ -44,7 +44,7 @@ pub fn is_palindrome(head: Option<Box<ListNode>>) -> bool {
         }
     }
 
-    if !fast_runner.is_none() {
+    if fast_runner.is_some() {
         slow_runner = slow_runner.unwrap().next;
     }
 

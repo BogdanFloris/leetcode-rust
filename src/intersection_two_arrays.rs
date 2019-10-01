@@ -10,7 +10,7 @@ pub fn intersect(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<i32> {
     });
 
     nums2.iter().for_each(|num| {
-        if map.get(num).unwrap_or(&0).clone() != 0 {
+        if *map.get(num).unwrap_or(&0) != 0 {
             nums.push(*num);
             map.entry(*num).and_modify(|e| *e -= 1);
         }

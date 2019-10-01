@@ -3,7 +3,7 @@ pub fn title_to_number(s: String) -> i32 {
     s.chars()
         .rev()
         .enumerate()
-        .map(|(index, c)| ((c as u8 - 64) % 27) as i32 * 26_i32.pow(index as u32))
+        .map(|(index, c)| i32::from((c as u8 - 64) % 27) * 26_i32.pow(index as u32))
         .sum()
 }
 

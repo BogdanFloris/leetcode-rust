@@ -1,12 +1,12 @@
 #[allow(dead_code)]
 pub fn get_sum(a: i32, b: i32) -> i32 {
-    let mut a = a as i64;
-    let mut b = b as i64;
-    let mask: i64 = 0xffffffff;
+    let mut a = i64::from(a);
+    let mut b = i64::from(b);
+    let mask: i64 = 0xffff_ffff;
 
     while b & mask != 0 {
         let carry = a & b;
-        a = a ^ b;
+        a ^= b;
         b = carry << 1;
     }
 

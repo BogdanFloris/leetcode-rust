@@ -1,7 +1,7 @@
 #[allow(dead_code)]
 pub fn permute(nums: Vec<i32>) -> Vec<Vec<i32>> {
     fn dfs(
-        nums: &Vec<i32>,
+        nums: &[i32],
         permutations: &mut Vec<Vec<i32>>,
         current: &mut Vec<i32>,
         covered_indices: &mut Vec<i32>,

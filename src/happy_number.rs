@@ -12,7 +12,7 @@ fn is_happy_helper(mut n: i32, mut number_set: HashSet<i32>) -> bool {
 
     while n > 0 {
         sum += (n % 10).pow(2);
-        n = n / 10;
+        n /= 10;
     }
 
     if sum == 1 {

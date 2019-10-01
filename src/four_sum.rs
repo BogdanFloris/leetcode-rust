@@ -14,9 +14,8 @@ pub fn four_sum_count(a: Vec<i32>, b: Vec<i32>, c: Vec<i32>, d: Vec<i32>) -> i32
     for c in &c {
         for d in &d {
             let key = 0 - (c + d);
-            match map.get(&key) {
-                Some(val) => counter += *val,
-                None => {},
+            if let Some(val) = map.get(&key) {
+                counter += *val;
             }
         }
     }

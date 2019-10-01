@@ -13,7 +13,7 @@ pub fn first_uniq_char(s: String) -> i32 {
     let s_bytes = s.as_bytes();
 
     for index in index_store {
-        if map.get(&(s_bytes[index] as char)).unwrap().clone() {
+        if *map.get(&(s_bytes[index] as char)).unwrap() {
             return index as i32;
         }
     }

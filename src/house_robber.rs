@@ -2,7 +2,7 @@ use std::cmp;
 
 #[allow(dead_code)]
 pub fn rob(nums: Vec<i32>) -> i32 {
-    if nums.len() == 0 {
+    if nums.is_empty() {
         return 0;
     }
 
