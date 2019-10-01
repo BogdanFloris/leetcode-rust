@@ -35,3 +35,4 @@ mod merge_sorted_array;
 mod permutations;
 mod four_sum;
 mod find_duplicate;
+mod shuffle_array;
